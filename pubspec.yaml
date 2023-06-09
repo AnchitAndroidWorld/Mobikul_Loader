@@ -1,7 +1,7 @@
 name: mobikul_loader_package
 description: A Flutter package for both android and iOS to show loader with message.
 version: 0.0.1
-homepage:
+homepage: https://github.com/AnchitAndroidWorld/Mobikul_Loader
 
 environment:
   sdk: '>=3.0.3 <4.0.0'

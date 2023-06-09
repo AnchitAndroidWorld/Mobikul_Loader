@@ -4,11 +4,12 @@ import 'package:flutter/material.dart';
 
 /// A loader with message.
 class MobikulLoader extends StatelessWidget {
-  final String? loadingMessage;
+  final String? message;
   final Color? loaderColor;
-  final double? loaderSize;
+  final Color? fontColor;
+  final double? fontSize;
 
-  const MobikulLoader({Key? key, this.loadingMessage, this.loaderColor, this.loaderSize}) : super(key: key);
+  const MobikulLoader({Key? key, this.message, this.loaderColor, this.fontSize, this. fontColor}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,17 +19,17 @@ class MobikulLoader extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            loadingMessage ?? '',
+            message ?? '',
             textAlign: TextAlign.center,
             style:  TextStyle(
-              fontSize: loaderSize,
-              color: loaderColor,
+              fontSize: fontSize?? 16,
+              color: fontColor ?? Theme.of(context).primaryColor ,
             ),
           ),
           const SizedBox(height: 24),
           CircularProgressIndicator(
             valueColor: AlwaysStoppedAnimation<Color?>(
-              Theme.of(context).iconTheme.color,
+              loaderColor ?? Theme.of(context).iconTheme.color,
             ),
           ),
         ],
