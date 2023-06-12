@@ -36,3 +36,5 @@ Usage - 3 --> Customized Loader with message
 ```dart
 MobikulLoader( message : " Your text message goes here", loaderColor: Colors.green , fontColor: Colors.black, fontSize: 24)
 ```
+
+![Loader_pic](loader_pic.png)
