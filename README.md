@@ -10,7 +10,7 @@ You can customize the message, font color, font size and the color of the circul
 Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  mobikul_loader_package: ^0.0.1
+  mobikul_loader_package: ^0.0.2
 ```
 
 ## Usage
