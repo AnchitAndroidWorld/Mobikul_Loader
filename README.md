@@ -1,19 +1,24 @@
-# Mobikul Loader
+# Mobikul 
+Mobikul is a leading mobile app development company that delivers innovative and high-quality mobile applications across various industries. Discover more at [https://mobikul.com/flutter-app-development/](https://mobikul.com/flutter-app-development/) and bring your app ideas to life with us.
+
+
+
+## Mobikul Loader
 A quick way to show a loader with message.
 
-## Features
-A simple and effective to show a dialog with circular progress indicator along with a message.
+### Features
+A simple and effective widget that shows circular progress indicator along with a message, on the current screen itself
 You can customize the message, font color, font size and the color of the circular progress indicator. 
 
-## Getting started
+### Getting started
 
 Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  mobikul_loader_package: ^0.0.2
+  mobikul_loader_package: ^0.0.3
 ```
 
-## Usage
+### Usage
 
 ```dart
 import 'package:mobikul_loader_package/mobikul_loader_package.dart';
