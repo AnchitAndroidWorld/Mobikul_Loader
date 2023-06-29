@@ -7,7 +7,8 @@ Mobikul is a leading mobile app development company that delivers innovative and
 A quick way to show a loader with message.
 
 ### Features
-A simple and effective widget that shows circular progress indicator along with a message, on the current screen itself
+A simple and effective widget that shows circular progress indicator along with a message, on the current screen itself.
+
 You can customize the message, font color, font size and the color of the circular progress indicator. 
 
 ### Getting started
